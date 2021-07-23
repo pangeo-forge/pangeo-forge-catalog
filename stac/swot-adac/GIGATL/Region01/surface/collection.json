@@ -1,7 +1,6 @@
 {
     "stac_version": "1.0.0",
-    "id": "GIGATL-Region01-surface",
-    "title": "GIGATL Region01 Surface",
+    "id": "surface",
     "description": "",
 
     "extent": {

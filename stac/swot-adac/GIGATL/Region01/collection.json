@@ -1,7 +1,7 @@
 {
     "stac_version": "1.0.0",
-    "id": "GIGATL-Region01",
-    "title": "GIGATL Region01",
+    "id": "Region01",
+    "title": "Region01",
     "description": "",
 
     "extent": {
@@ -16,6 +16,10 @@
     "links": [
         {"rel": "root", "href": "../../../catalog.json"},
         {"rel": "parent", "href": "../collection.json"},
-        {"rel": "child", "href": "./surface/collection.json"}
+        {
+	  "rel": "child",
+	  "href": "./surface/collection.json"
+	  "title": "Surface"
+	}
     ]
 }
