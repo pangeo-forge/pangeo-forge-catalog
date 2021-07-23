@@ -1,5 +1,5 @@
 {
-    "stac_version": "1.0.0-beta.2",
+    "stac_version": "1.0.0",
     "id": "GIGATL-Region01",
     "title": "GIGATL Region01",
     "description": "",
@@ -7,24 +7,15 @@
     "extent": {
         "spatial": {
           "bbox": [[-20, 20, 20, -20]]
+        },
+        "temporal": {
+            "interval": [["1850-01-01T00:00:00", null]]
         }
     },
 
     "links": [
-        {
-            "rel": "root",
-            "href": "../../../catalog.json",
-            "type": "application/json"
-        },
-        {
-            "rel": "parent",
-            "href": "../collection.json",
-            "type": "application/json"
-        },
-        {
-            "rel": "child",
-            "href": "./surface/collection.json",
-            "type": "application/json"
-        }
+        {"rel": "root", "href": "../../../catalog.json"},
+        {"rel": "parent", "href": "../collection.json"},
+        {"rel": "child", "href": "./surface/collection.json"}
     ]
 }

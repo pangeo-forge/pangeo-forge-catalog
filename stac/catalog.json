@@ -13,7 +13,7 @@
       {
         "name": "Pangeo Forge",
         "roles": ["producer", "processor"],
-        "description": "Read the [documentation]",
+        "description": "[Read the docs](https://pangeo-forge.readthedocs.io/en/latest/) to learn how to contribute your own recipes.",
         "url": "http://pangeo-forge.org"
       },
       {
