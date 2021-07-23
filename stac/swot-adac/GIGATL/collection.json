@@ -1,0 +1,30 @@
+{
+    "stac_version": "1.0.0-beta.2",
+    "id": "GIGATL",
+    "title": "GIGATL",
+    "description": "",
+
+    "extent": {
+        "spatial": {
+          "bbox": [[-45, 45, 45, -45]]
+        }
+    },
+
+    "links": [
+        {
+            "rel": "root",
+            "href": "../../catalog.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "parent",
+            "href": "../collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "child",
+            "href": "./Region01/collection.json",
+            "title": "Region01"
+        }
+    ]
+}

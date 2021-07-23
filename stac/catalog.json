@@ -1,0 +1,48 @@
+{
+    "stac_version": "1.0.0-beta.1",
+    "id": "pangeo-forge-catalog",
+  
+    "title": "Pangeo Forge Catalog",
+    "description": "[Pangeo Forge](https://www.pangeo-forge.org/) is an open source tool for data Extraction, Transformation, and Loading (ETL). The goal of Pangeo Forge is to make it easy to extract data from traditional data repositories and deposit in cloud object storage in analysis-ready, cloud-optimized (ARCO) format. ARCO datasets built with Pangeo Forge are cataloged here. Licenses vary depending on the data provider and are listed at the dataset level.",
+  
+    "keywords": ["pangeo", "pangeo forge", "ETL", "analysis-ready", "cloud-optimized", "ARCO", "cloud object storage", "Zarr"],
+  
+    "license": "",
+  
+    "providers": [
+      {
+        "name": "Pangeo Forge",
+        "roles": ["producer", "processor"],
+        "description": "Read the [documentation]",
+        "url": "http://pangeo-forge.org"
+      },
+      {
+        "name": "GitHub",
+        "roles": ["host"],
+        "description": "This catalog is hosted in the [pangeo-forge-catalog](https://github.com/pangeo-forge/pangeo-forge-catalog) repository on GitHub",
+        "url": "https://github.com"
+      }
+    ],
+  
+    "extent": {
+      "spatial": {
+        "bbox": [[-180, 180, 180, -180]]
+      },
+      "temporal": {
+        "interval": [["1850-01-01T00:00:00", null]]
+      }
+    },
+  
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://raw.githubusercontent.com/pangeo-forge/pangeo-forge-catalog/main/stac/catalog.json"
+      },
+      { "rel": "root", "href": "catalog.json" },
+      {
+        "rel": "child",
+        "href": "swot-adac/collection.json",
+        "title": "Surface Water and Ocean Topography (SWOT) Adopt-A-Crossover Model Intercomparison"
+      }
+    ]
+  }

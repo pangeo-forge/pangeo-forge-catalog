@@ -1,0 +1,30 @@
+{
+    "stac_version": "1.0.0-beta.2",
+    "id": "GIGATL-Region01-surface",
+    "title": "GIGATL Region01 Surface",
+    "description": "",
+
+    "extent": {
+        "spatial": {
+          "bbox": [[-20, 20, 20, -20]]
+        }
+    },
+
+    "links": [
+        {
+            "rel": "root",
+            "href": "../../../../catalog.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "parent",
+            "href": "../collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "item",
+            "href": "fma.json",
+            "title": "GIGATL Region01 Surface (Feb, Mar, Apr)"
+        }
+    ]
+}

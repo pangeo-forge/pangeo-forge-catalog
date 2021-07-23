@@ -1,0 +1,32 @@
+{
+    "type": "Feature",
+    "stac_version": "1.0.0-beta.2",
+    "id": "GIGATL-Region01-surface-fma",
+    "properties": {
+        "datetime": ""
+    },
+    "links": [
+        {
+            "rel": "root",
+            "href": "../../../../../collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "parent",
+            "href": "../collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "collection",
+            "href": "./collection.json"
+        }
+    ],
+    "bbox": [
+        -10,
+        10,
+        -10,
+        10
+    ],
+    "stac_extensions": [
+    ]
+}

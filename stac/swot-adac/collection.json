@@ -1,0 +1,30 @@
+{
+    "stac_version": "1.0.0-beta.2",
+    "id": "swot-adac",
+    "title": "Surface Water and Ocean Topography (SWOT) Adopt-A-Crossover Model Intercomparison",
+    "description": "",
+
+    "extent": {
+        "spatial": {
+          "bbox": [[-90, 90, 90, -90]]
+        }
+    },
+
+    "links": [
+        {
+            "rel": "root",
+            "href": "../catalog.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "parent",
+            "href": "../catalog.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "child",
+            "href": "./GIGATL/collection.json",
+            "title": "GIGATL"
+        }
+    ]
+}
