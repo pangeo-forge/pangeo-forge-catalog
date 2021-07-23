@@ -36,7 +36,7 @@
     "links": [
       {
         "rel": "self",
-        "href": "https://raw.githubusercontent.com/pangeo-forge/pangeo-forge-catalog/main/stac/catalog.json"
+        "href": "https://raw.githubusercontent.com/cisaacstern/pangeo-forge-catalog/first-pass/stac/catalog.json"
       },
       { "rel": "root", "href": "catalog.json" },
       {
