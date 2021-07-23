@@ -7,6 +7,9 @@
     "extent": {
         "spatial": {
           "bbox": [[-90, 90, 90, -90]]
+        },
+        "temporal": {
+            "interval": [["1850-01-01T00:00:00", null]]
         }
     },
 
