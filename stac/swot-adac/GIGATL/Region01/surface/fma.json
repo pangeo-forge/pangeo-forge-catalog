@@ -5,6 +5,18 @@
     "properties": {
         "datetime": ""
     },
+    "bbox": [-10.0, -10.0, 10.0, 10.0],
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [-10.0, -10.0],
+                [10.0, -10.0],
+                [10.0, 10.0],
+                [-10.0, -10.0]
+            ]
+        ]
+    },
     "links": [
         {"rel": "root", "href": "../../../../../collection.json"},
         {"rel": "parent", "href": "../collection.json"},
@@ -13,7 +25,22 @@
           "href": "./collection.json"
         }
     ],
-    "bbox": [-10, 10, -10, 10],
+    "assets":{
+        "zarr-osn":{
+            "href":"s3://Pangeo/pangeo-forge/swot_adac/GIGATL/Region01/surf/fma.zarr",
+            "type":"application/vnd+zarr",
+            "title":"GIGATL Region01 Surface (Feb, Mar, Apr)",
+            "description": "",
+            "xarray:storage_options":{
+                "anon": "True",
+                "client_kwargs": {"endpoint_url": "https://ncsa.osn.xsede.org"}
+            },
+            "xarray:open_kwargs": {
+                "consolidated": true
+            }
+        }
+    },
     "stac_extensions": [
-    ]
+    ],
+    "collection": "collection.json"
 }
