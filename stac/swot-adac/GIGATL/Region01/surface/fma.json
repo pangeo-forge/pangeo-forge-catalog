@@ -3,7 +3,8 @@
     "stac_version": "1.0.0",
     "id": "GIGATL-Region01-surface-fma",
     "properties": {
-        "datetime": ["1979-02-01T00:00:00", "1979-04-01T00:00:00"]
+        "start_datetime": "1979-02-01T00:00:00",
+        "end_datetime": "1979-04-01T00:00:00"
     },
     "bbox": [-10.0, -10.0, 10.0, 10.0],
     "geometry": {
