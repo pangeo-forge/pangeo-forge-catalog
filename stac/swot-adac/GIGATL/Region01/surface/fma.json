@@ -26,7 +26,7 @@
         }
     ],
     "assets":{
-        "zarr-osn":{
+        "zarr_osn":{
             "href":"s3://Pangeo/pangeo-forge/swot_adac/GIGATL/Region01/surf/fma.zarr",
             "type":"application/vnd+zarr",
             "title":"GIGATL Region01 Surface (Feb, Mar, Apr)",
