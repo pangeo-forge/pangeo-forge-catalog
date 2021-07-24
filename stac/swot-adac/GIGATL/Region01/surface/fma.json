@@ -40,7 +40,6 @@
             }
         }
     },
-    "stac_extensions": [
-    ],
+    "stac_extensions": ["xarray-assets"],
     "collection": "collection.json"
 }
