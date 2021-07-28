@@ -1,14 +1,11 @@
 {
     "stac_version": "1.0.0",
     "id": "pangeo-forge-catalog",
-  
     "title": "Pangeo Forge Catalog",
-    "description": "[Pangeo Forge](https://www.pangeo-forge.org/) is an open source tool for data Extraction, Transformation, and Loading (ETL). The goal of Pangeo Forge is to make it easy to extract data from traditional data repositories and deposit in cloud object storage in analysis-ready, cloud-optimized (ARCO) format. ARCO datasets built with Pangeo Forge are cataloged here. Licenses vary depending on the data provider and are listed at the dataset level.",
-  
-    "keywords": ["pangeo", "pangeo forge", "ETL", "analysis-ready", "cloud-optimized", "ARCO", "cloud object storage", "Zarr"],
-  
+    "description": "[Pangeo Forge](https://www.pangeo-forge.org/) is an open source tool for data Extraction, Transformation, and Loading (ETL). The goal of Pangeo Forge is to make it easy to extract data from traditional data repositories and deposit in cloud object storage in analysis-ready, cloud-optimized (ARCO) format. ARCO datasets built with Pangeo Forge are cataloged here.",
+    "keywords": ["pangeo", "ETL", "ARCO", "Zarr"],
     "license": "",
-  
+
     "providers": [
       {
         "name": "Pangeo Forge",
@@ -34,11 +31,11 @@
     },
   
     "links": [
-      {"rel": "self", "href": "https://raw.githubusercontent.com/cisaacstern/pangeo-forge-catalog/adjust-for-browser/stac/catalog.json"},
-      {"rel": "root", "href": "https://raw.githubusercontent.com/cisaacstern/pangeo-forge-catalog/adjust-for-browser/stac/catalog.json"},
+      {"rel": "self", "href": "https://raw.githubusercontent.com/cisaacstern/pangeo-forge-catalog/reorg/stac/pangeo-forge-catalog.json"},
+      {"rel": "root", "href": "https://raw.githubusercontent.com/cisaacstern/pangeo-forge-catalog/reorg/stac/pangeo-forge-catalog.json"},
       {
         "rel": "child",
-        "href": "https://raw.githubusercontent.com/cisaacstern/pangeo-forge-catalog/adjust-for-browser/stacswot-adac/collection.json",
+        "href": "https://raw.githubusercontent.com/cisaacstern/pangeo-forge-catalog/reorg/stac/swot-adac/swot-adac-catalog.json",
         "title": "SWOT Adopt-A-Crossover"
       }
     ]
