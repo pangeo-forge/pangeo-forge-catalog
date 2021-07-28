@@ -2,6 +2,7 @@
     "type": "Feature",
     "stac_version": "1.0.0",
     "id": "GIGATL-Region01-surface-fma",
+    "access": "public",
     "properties": {
         "datetime": "1979-04-01T00:00:00"
     },
