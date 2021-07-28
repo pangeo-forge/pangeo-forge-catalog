@@ -1,7 +1,7 @@
 {
     "stac_version": "1.0.0",
     "id": "swot-adac",
-    "title": "Surface Water and Ocean Topography (SWOT) Adopt-A-Crossover Model Intercomparison",
+    "title": "SWOT Adopt-A-Crossover",
     "description": "",
 
     "extent": {
@@ -14,18 +14,13 @@
     },
 
     "links": [
-        { 
-          "rel": "root",
-          "href": "../catalog.json" 
-        },
-        {
-          "rel": "parent",
-          "href": "../catalog.json"
-        },
+        {"rel": "self", "href": "https://raw.githubusercontent.com/cisaacstern/pangeo-forge-catalog/reorg/stac/swot-adac/swot-adac-catalog.json"},
+        {"rel": "root", "href": "https://raw.githubusercontent.com/cisaacstern/pangeo-forge-catalog/reorg/stac/pangeo-forge-catalog.json"},
+        {"rel": "parent", "href": "https://raw.githubusercontent.com/cisaacstern/pangeo-forge-catalog/reorg/stac/pangeo-forge-catalog.json"},
         { 
           "rel": "child",
-          "href": "GIGATL/collection.json",
-          "title": "GIGATL" }
-
+          "href": "https://raw.githubusercontent.com/cisaacstern/pangeo-forge-catalog/reorg/stac/swot-adac/GIGATL/gigatl-collection.json",
+          "title": "GIGATL"
+        }
     ]
 }
