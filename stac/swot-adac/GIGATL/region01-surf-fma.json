@@ -1,12 +1,13 @@
 {
     "type": "Feature",
     "stac_version": "1.0.0",
-    "id": "GIGATL-Region01-surface-fma",
+    "id": "region01-surf-fma",
     "access": "public",
-    "url": "https://raw.githubusercontent.com/cisaacstern/pangeo-forge-catalog/adjust-for-browser/stac/swot-adac/GIGATL/Region01/surface/fma.json",
+
     "properties": {
         "datetime": "1979-04-01T00:00:00"
     },
+
     "bbox": [-10.0, -10.0, 10.0, 10.0],
     "geometry": {
         "type": "Polygon",
@@ -19,11 +20,14 @@
             ]
         ]
     },
+
     "links": [
-        {"rel": "root", "href": "../../../../../collection.json"},
-        {"rel": "parent", "href": "../collection.json"},
-        {"rel": "collection", "href": "./collection.json"}
+        {"rel": "self", "href": "https://raw.githubusercontent.com/cisaacstern/pangeo-forge-catalog/reorg/stac/swot-adac/GIGATL/region01-surf-fma.json"},
+        {"rel": "root", "href": "https://raw.githubusercontent.com/cisaacstern/pangeo-forge-catalog/reorg/stac/pangeo-forge-catalog.json"},
+        {"rel": "parent", "href": "https://raw.githubusercontent.com/cisaacstern/pangeo-forge-catalog/reorg/stac/swot-adac/GIGATL/gigatl-collection.json"},
+        {"rel": "collection", "href": "https://raw.githubusercontent.com/cisaacstern/pangeo-forge-catalog/reorg/stac/swot-adac/GIGATL/gigatl-collection.json"}
     ],
+
     "assets":{
         "zarr_osn":{
             "href":"s3://Pangeo/pangeo-forge/swot_adac/GIGATL/Region01/surf/fma.zarr",
@@ -39,6 +43,5 @@
             }
         }
     },
-    "stac_extensions": ["xarray-assets"],
-    "collection": "collection.json"
+    "stac_extensions": ["xarray-assets"]
 }
