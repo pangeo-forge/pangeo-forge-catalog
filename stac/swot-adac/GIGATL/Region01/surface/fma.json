@@ -3,6 +3,7 @@
     "stac_version": "1.0.0",
     "id": "GIGATL-Region01-surface-fma",
     "access": "public",
+    "url": "https://raw.githubusercontent.com/cisaacstern/pangeo-forge-catalog/adjust-for-browser/stac/swot-adac/GIGATL/Region01/surface/fma.json",
     "properties": {
         "datetime": "1979-04-01T00:00:00"
     },
