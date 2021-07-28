@@ -5,6 +5,7 @@
     "description": "[Pangeo Forge](https://www.pangeo-forge.org/) is an open source tool for data Extraction, Transformation, and Loading (ETL). The goal of Pangeo Forge is to make it easy to extract data from traditional data repositories and deposit in cloud object storage in analysis-ready, cloud-optimized (ARCO) format. ARCO datasets built with Pangeo Forge are cataloged here.",
     "keywords": ["pangeo", "ETL", "ARCO", "Zarr"],
     "license": "",
+    "access": "public",
 
     "providers": [
       {
