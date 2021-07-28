@@ -34,14 +34,11 @@
     },
   
     "links": [
-      {
-        "rel": "self",
-        "href": "https://raw.githubusercontent.com/cisaacstern/pangeo-forge-catalog/first-pass/stac/catalog.json"
-      },
-      { "rel": "root", "href": "catalog.json" },
+      {"rel": "self", "href": "https://raw.githubusercontent.com/cisaacstern/pangeo-forge-catalog/adjust-for-browser/stac/catalog.json"},
+      {"rel": "root", "href": "https://raw.githubusercontent.com/cisaacstern/pangeo-forge-catalog/adjust-for-browser/stac/catalog.json"},
       {
         "rel": "child",
-        "href": "swot-adac/collection.json",
+        "href": "https://raw.githubusercontent.com/cisaacstern/pangeo-forge-catalog/adjust-for-browser/stacswot-adac/collection.json",
         "title": "SWOT Adopt-A-Crossover"
       }
     ]

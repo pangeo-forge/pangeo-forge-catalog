@@ -22,10 +22,7 @@
     "links": [
         {"rel": "root", "href": "../../../../../collection.json"},
         {"rel": "parent", "href": "../collection.json"},
-        {
-          "rel": "collection",
-          "href": "./collection.json"
-        }
+        {"rel": "collection", "href": "./collection.json"}
     ],
     "assets":{
         "zarr_osn":{
