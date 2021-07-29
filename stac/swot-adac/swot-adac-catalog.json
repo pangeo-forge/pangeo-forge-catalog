@@ -1,0 +1,27 @@
+{
+    "stac_version": "1.0.0",
+    "id": "swot-adac",
+    "title": "SWOT Adopt-A-Crossover",
+    "license": "Varies by collection",
+    "description": "",
+
+    "extent": {
+        "spatial": {
+          "bbox": [[-90, 90, 90, -90]]
+        },
+        "temporal": {
+            "interval": [["1850-01-01T00:00:00", null]]
+        }
+    },
+
+    "links": [
+        {"rel": "self", "href": "https://raw.githubusercontent.com/pangeo-forge/pangeo-forge-catalog/dev/stac/swot-adac/swot-adac-catalog.json"},
+        {"rel": "root", "href": "https://raw.githubusercontent.com/pangeo-forge/pangeo-forge-catalog/dev/stac/pangeo-forge-catalog.json"},
+        {"rel": "parent", "href": "https://raw.githubusercontent.com/pangeo-forge/pangeo-forge-catalog/dev/stac/pangeo-forge-catalog.json"},
+        { 
+          "rel": "child",
+          "href": "https://raw.githubusercontent.com/pangeo-forge/pangeo-forge-catalog/dev/stac/swot-adac/GIGATL/gigatl-collection.json",
+          "title": "GIGATL"
+        }
+    ]
+}

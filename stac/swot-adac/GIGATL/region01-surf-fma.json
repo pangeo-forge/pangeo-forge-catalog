@@ -1,0 +1,68 @@
+{
+    "type": "Feature",
+    "stac_version": "1.0.0",
+    "id": "region01-surf-fma",
+    "access": "public",
+    "collection": "GIGATL",
+
+    "properties": {
+        "datetime": null,
+        "start_datetime": "1850-01-01",
+        "end_datetime": "1851-01-01",
+        "cube:variables":{},
+        "cube:dimensions":{}
+    },
+
+    "bbox": [-10.0, -10.0, 10.0, 10.0],
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [-10.0, -10.0],
+                [10.0, -10.0],
+                [10.0, 10.0],
+                [-10.0, -10.0]
+            ]
+        ]
+    },
+
+    "links": [
+        {"rel": "self", "href": "https://raw.githubusercontent.com/pangeo-forge/pangeo-forge-catalog/dev/stac/swot-adac/GIGATL/region01-surf-fma.json"},
+        {"rel": "root", "href": "https://raw.githubusercontent.com/pangeo-forge/pangeo-forge-catalog/dev/stac/pangeo-forge-catalog.json"},
+        {"rel": "parent", "href": "https://raw.githubusercontent.com/pangeo-forge/pangeo-forge-catalog/dev/stac/swot-adac/GIGATL/gigatl-collection.json"},
+        {"rel": "collection", "href": "https://raw.githubusercontent.com/pangeo-forge/pangeo-forge-catalog/dev/stac/swot-adac/GIGATL/gigatl-collection.json"}
+    ],
+
+    "assets":{
+        "zarr-osn":{
+            "href":"s3://Pangeo/pangeo-forge/swot_adac/GIGATL/Region01/surf/fma.zarr",
+            "type":"application/vnd+zarr",
+            "title":"s3://Pangeo/pangeo-forge/swot_adac/GIGATL/Region01/surf/fma.zarr",
+            "roles": ["data"],
+            "xarray:storage_options":{
+                "anon": "True",
+                "client_kwargs": {"endpoint_url": "https://ncsa.osn.xsede.org"}
+            },
+            "xarray:open_kwargs": {
+                "consolidated": true
+            }
+        },
+        "thumbnail":{
+            "href": "https://raw.githubusercontent.com/pangeo-forge/pangeo-forge-catalog/dev/stac/swot-adac/GIGATL/region01-surf-fma-thumbnail.png",
+            "type": "image/png",
+            "title": "thumbnail",
+            "roles": ["thumbnail"]
+        },
+        "notebook":{
+            "href": "https://nbviewer.jupyter.org/github/pangeo-forge/stac-notebooks/blob/gigatl-reg01-surf-fma/example_notebook.ipynb",
+            "type": "application/x-ipynb+json",
+            "title": "example notebook"
+        },
+        "recipe":{
+            "href": "https://github.com/pangeo-forge/staged-recipes/pull/27/files#diff-edc75b21340ab2b38c0b6caff729f5bcfe59cd834941cdea2cdeda3525303421",
+            "type": "text/x-python",
+            "title": "pangeo forge recipe"
+        }
+    },
+    "stac_extensions": ["xarray-assets", "https://stac-extensions.github.io/datacube/v1.0.0/schema.json"]
+}
