@@ -37,7 +37,6 @@
             "type":"application/vnd+zarr",
             "title":"s3://Pangeo/pangeo-forge/swot_adac/GIGATL/Region01/surf/fma.zarr",
             "roles": ["data"],
-            "description": "Here's how a [link](https://github.com) in a description looks.",
             "xarray:storage_options":{
                 "anon": "True",
                 "client_kwargs": {"endpoint_url": "https://ncsa.osn.xsede.org"}
@@ -45,6 +44,12 @@
             "xarray:open_kwargs": {
                 "consolidated": true
             }
+        },
+        "thumbnail":{
+            "href": "https://raw.githubusercontent.com/cisaacstern/pangeo-forge-catalog/reorg/stac/swot-adac/GIGATL/region01-surf-fma-thumbnail.png",
+            "type": "image/png",
+            "title": "https://raw.githubusercontent.com/cisaacstern/pangeo-forge-catalog/reorg/stac/swot-adac/GIGATL/region01-surf-fma-thumbnail.png",
+            "roles": ["thumbnail"]
         }
     },
     "stac_extensions": ["xarray-assets", "https://stac-extensions.github.io/datacube/v1.0.0/schema.json"]
