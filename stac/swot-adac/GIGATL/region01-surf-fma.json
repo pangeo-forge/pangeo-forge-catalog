@@ -54,7 +54,7 @@
             "roles": ["thumbnail"]
         },
         "notebook":{
-            "href": "https://nbviewer.jupyter.org/github/pangeo-forge/stac-notebooks/blob/gigatl-reg01-surf-fma/example_notebook.ipynb",
+            "href": "https://nbviewer.jupyter.org/github/cisaacstern/stac-notebooks/blob/gigatl-reg01-surf-fma/example_notebook.ipynb",
             "type": "application/x-ipynb+json",
             "title": "example notebook"
         },
