@@ -48,7 +48,7 @@
         "thumbnail":{
             "href": "https://raw.githubusercontent.com/cisaacstern/pangeo-forge-catalog/reorg/stac/swot-adac/GIGATL/region01-surf-fma-thumbnail.png",
             "type": "image/png",
-            "title": "https://raw.githubusercontent.com/cisaacstern/pangeo-forge-catalog/reorg/stac/swot-adac/GIGATL/region01-surf-fma-thumbnail.png",
+            "title": "region01-surf-fma-thumbnail.png",
             "roles": ["thumbnail"]
         }
     },
