@@ -2,6 +2,7 @@
     "stac_version": "1.0.0",
     "id": "swot-adac",
     "title": "SWOT Adopt-A-Crossover",
+    "license": "Varies by collection",
     "description": "",
 
     "extent": {
