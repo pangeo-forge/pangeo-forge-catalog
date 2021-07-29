@@ -6,7 +6,9 @@
     "collection": "GIGATL",
 
     "properties": {
-        "datetime": "1979-04-01T00:00:00",
+        "datetime": null,
+        "start_datetime": "1979-04-01",
+        "end_datetime": "1989-04-01",
         "cube:variables":{},
         "cube:dimensions":{}
     },
