@@ -7,8 +7,8 @@
 
     "properties": {
         "datetime": null,
-        "start_datetime": "1979-04-01",
-        "end_datetime": "1989-04-01",
+        "start_datetime": "1850-01-01",
+        "end_datetime": "1851-01-01",
         "cube:variables":{},
         "cube:dimensions":{}
     },
@@ -50,8 +50,18 @@
         "thumbnail":{
             "href": "https://raw.githubusercontent.com/cisaacstern/pangeo-forge-catalog/reorg/stac/swot-adac/GIGATL/region01-surf-fma-thumbnail.png",
             "type": "image/png",
-            "title": "region01-surf-fma-thumbnail.png",
+            "title": "thumbnail",
             "roles": ["thumbnail"]
+        },
+        "notebook":{
+            "href": "https://nbviewer.jupyter.org/github/cisaacstern/stac-notebooks/blob/gigatl-reg01-surf-fma/example_notebook.ipynb",
+            "type": "application/x-ipynb+json",
+            "title": "example notebook"
+        },
+        "recipe":{
+            "href": "https://github.com/pangeo-forge/staged-recipes/pull/27/files#diff-edc75b21340ab2b38c0b6caff729f5bcfe59cd834941cdea2cdeda3525303421",
+            "typle": "text/x-python",
+            "title": "pangeo forge recipe"
         }
     },
     "stac_extensions": ["xarray-assets", "https://stac-extensions.github.io/datacube/v1.0.0/schema.json"]
