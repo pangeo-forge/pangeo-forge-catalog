@@ -60,7 +60,7 @@
         },
         "recipe":{
             "href": "https://github.com/pangeo-forge/staged-recipes/pull/27/files#diff-edc75b21340ab2b38c0b6caff729f5bcfe59cd834941cdea2cdeda3525303421",
-            "typle": "text/x-python",
+            "type": "text/x-python",
             "title": "pangeo forge recipe"
         }
     },
