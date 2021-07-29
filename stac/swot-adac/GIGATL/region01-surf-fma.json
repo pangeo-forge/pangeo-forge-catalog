@@ -28,6 +28,58 @@
         {"rel": "collection", "href": "https://raw.githubusercontent.com/cisaacstern/pangeo-forge-catalog/reorg/stac/swot-adac/GIGATL/gigatl-collection.json"}
     ],
 
+    "cube:variables":{
+        "vp":{"type":"data", "unit":"Pa",
+            "attrs":{"units":"Pa", "long_name":"daily average vapor pressure",
+                "cell_methods":"area: mean time: mean", "grid_mapping":"lambert_conformal_conic"},
+            "shape":[14965,584,284], "chunks":[365,584,284], "dimensions":["time","y","x"], "description":"daily average vapor pressure"
+        },
+        "lat":{
+            "type":"auxiliary", "unit":"degrees_north",
+            "attrs":{"units":"degrees_north", "long_name":"latitude coordinate", "standard_name":"latitude"},
+            "shape":[584,284], "chunks":[584,284], "dimensions":["y","x"], "description":"latitude coordinate"
+        },
+        "lon":{
+            "type":"auxiliary",
+            "unit":"degrees_east",
+            "attrs":{"units":"degrees_east", "long_name":"longitude coordinate", "standard_name":"longitude"},
+            "shape":[584,284], "chunks":[584,284], "dimensions":["y","x"], "description":"longitude coordinate"
+        }
+    },
+
+    "cube:dimensions":{
+        "x":{"axis":"x", "step":1000.0, "type":"spatial", "extent":[-5802250.0,-5519250.0], "description":"x coordinate of projection",
+            "reference_system":{
+                "name":"undefined", "type":"ProjectedCRS", "$schema":"https://proj.org/schemas/v0.2/projjson.schema.json",
+                "base_crs":{
+                    "name":"undefined",
+                        "datum":{"name":"undefined","type":"GeodeticReferenceFrame",
+                            "ellipsoid":{"name":"undefined", "semi_major_axis":6378137, "inverse_flattening":298.257223563}},
+                        "coordinate_system":{
+                            "axis":[{"name":"Longitude","unit":"degree","direction":"east","abbreviation":"lon"},
+                                    {"name":"Latitude","unit":"degree","direction":"north","abbreviation":"lat"}],
+                            "subtype":"ellipsoidal"}
+                },
+                "conversion":{
+                    "name":"unknown",
+                    "method":{"id":{"code":9802,"authority":"EPSG"},"name":"Lambert Conic Conformal (2SP)"},
+                    "parameters":[
+                        {"id":{"code":8823,"authority":"EPSG"},"name":"Latitude of 1st standard parallel","unit":"degree","value":25},
+                        {"id":{"code":8824,"authority":"EPSG"},"name":"Latitude of 2nd standard parallel","unit":"degree","value":60},
+                        {"id":{"code":8821,"authority":"EPSG"},"name":"Latitude of false origin","unit":"degree","value":42.5},
+                        {"id":{"code":8822,"authority":"EPSG"},"name":"Longitude of false origin","unit":"degree","value":-100},
+                        {"id":{"code":8826,"authority":"EPSG"},"name":"Easting at false origin","unit":"metre","value":0},
+                        {"id":{"code":8827,"authority":"EPSG"},"name":"Northing at false origin","unit":"metre","value":0}
+                    ]
+                },
+                "coordinate_system":{
+                    "axis":[
+                        {"name":"Easting","unit":"metre","direction":"east","abbreviation":"E"},
+                        {"name":"Northing","unit":"metre","direction":"north","abbreviation":"N"}],
+                    "subtype":"Cartesian"}}
+        }
+    },
+
     "assets":{
         "zarr_osn":{
             "href":"s3://Pangeo/pangeo-forge/swot_adac/GIGATL/Region01/surf/fma.zarr",
@@ -44,5 +96,5 @@
             }
         }
     },
-    "stac_extensions": ["xarray-assets"]
+    "stac_extensions": ["xarray-assets", "https://stac-extensions.github.io/datacube/v1.0.0/schema.json"]
 }
