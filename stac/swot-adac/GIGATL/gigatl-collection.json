@@ -18,7 +18,7 @@
         {"rel": "root", "href": "https://raw.githubusercontent.com/cisaacstern/pangeo-forge-catalog/reorg/stac/pangeo-forge-catalog.json"},
         {"rel": "parent", "href": "https://raw.githubusercontent.com/cisaacstern/pangeo-forge-catalog/reorg/stac/swot-adac/swot-adac-catalog.json"},
         {
-            "rel": "child",
+            "rel": "item",
             "href": "https://raw.githubusercontent.com/cisaacstern/pangeo-forge-catalog/reorg/stac/swot-adac/GIGATL/region01-surf-fma.json",
             "title": "region01-surf-fma"
         }
