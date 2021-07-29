@@ -15,12 +15,12 @@
     },
 
     "links": [
-        {"rel": "self", "href": "https://raw.githubusercontent.com/cisaacstern/pangeo-forge-catalog/reorg/stac/swot-adac/GIGATL/gigatl-collection.json"},
-        {"rel": "root", "href": "https://raw.githubusercontent.com/cisaacstern/pangeo-forge-catalog/reorg/stac/pangeo-forge-catalog.json"},
-        {"rel": "parent", "href": "https://raw.githubusercontent.com/cisaacstern/pangeo-forge-catalog/reorg/stac/swot-adac/swot-adac-catalog.json"},
+        {"rel": "self", "href": "https://raw.githubusercontent.com/pangeo-forge/pangeo-forge-catalog/dev/stac/swot-adac/GIGATL/gigatl-collection.json"},
+        {"rel": "root", "href": "https://raw.githubusercontent.com/pangeo-forge/pangeo-forge-catalog/dev/stac/pangeo-forge-catalog.json"},
+        {"rel": "parent", "href": "https://raw.githubusercontent.com/pangeo-forge/pangeo-forge-catalog/dev/stac/swot-adac/swot-adac-catalog.json"},
         {
             "rel": "item",
-            "href": "https://raw.githubusercontent.com/cisaacstern/pangeo-forge-catalog/reorg/stac/swot-adac/GIGATL/region01-surf-fma.json",
+            "href": "https://raw.githubusercontent.com/pangeo-forge/pangeo-forge-catalog/dev/stac/swot-adac/GIGATL/region01-surf-fma.json",
             "title": "region01-surf-fma"
         }
     ]

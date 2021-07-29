@@ -27,10 +27,10 @@
     },
 
     "links": [
-        {"rel": "self", "href": "https://raw.githubusercontent.com/cisaacstern/pangeo-forge-catalog/reorg/stac/swot-adac/GIGATL/region01-surf-fma.json"},
-        {"rel": "root", "href": "https://raw.githubusercontent.com/cisaacstern/pangeo-forge-catalog/reorg/stac/pangeo-forge-catalog.json"},
-        {"rel": "parent", "href": "https://raw.githubusercontent.com/cisaacstern/pangeo-forge-catalog/reorg/stac/swot-adac/GIGATL/gigatl-collection.json"},
-        {"rel": "collection", "href": "https://raw.githubusercontent.com/cisaacstern/pangeo-forge-catalog/reorg/stac/swot-adac/GIGATL/gigatl-collection.json"}
+        {"rel": "self", "href": "https://raw.githubusercontent.com/pangeo-forge/pangeo-forge-catalog/dev/stac/swot-adac/GIGATL/region01-surf-fma.json"},
+        {"rel": "root", "href": "https://raw.githubusercontent.com/pangeo-forge/pangeo-forge-catalog/dev/stac/pangeo-forge-catalog.json"},
+        {"rel": "parent", "href": "https://raw.githubusercontent.com/pangeo-forge/pangeo-forge-catalog/dev/stac/swot-adac/GIGATL/gigatl-collection.json"},
+        {"rel": "collection", "href": "https://raw.githubusercontent.com/pangeo-forge/pangeo-forge-catalog/dev/stac/swot-adac/GIGATL/gigatl-collection.json"}
     ],
 
     "assets":{
@@ -48,13 +48,13 @@
             }
         },
         "thumbnail":{
-            "href": "https://raw.githubusercontent.com/cisaacstern/pangeo-forge-catalog/reorg/stac/swot-adac/GIGATL/region01-surf-fma-thumbnail.png",
+            "href": "https://raw.githubusercontent.com/pangeo-forge/pangeo-forge-catalog/dev/stac/swot-adac/GIGATL/region01-surf-fma-thumbnail.png",
             "type": "image/png",
             "title": "thumbnail",
             "roles": ["thumbnail"]
         },
         "notebook":{
-            "href": "https://nbviewer.jupyter.org/github/cisaacstern/stac-notebooks/blob/gigatl-reg01-surf-fma/example_notebook.ipynb",
+            "href": "https://nbviewer.jupyter.org/github/pangeo-forge/stac-notebooks/blob/gigatl-reg01-surf-fma/example_notebook.ipynb",
             "type": "application/x-ipynb+json",
             "title": "example notebook"
         },
